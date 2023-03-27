@@ -11,9 +11,21 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'blobinfogit'"
 		},
+		"info_sql_unibenpocdb_git_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'info_sql_unibenpocdb_git'"
+		},
+		"info_unibenpocdb_sql_git_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'info_unibenpocdb_sql_git'"
+		},
 		"infosqldbgit_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'infosqldbgit'"
+		},
+		"infosqlunibenpocdbgit_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'infosqlunibenpocdbgit'"
 		},
 		"containerUri": {
 			"type": "string",
@@ -45,8 +57,17 @@
 					"blobinfogit_connectionString": {
 						"value": "[parameters('blobinfogit_connectionString')]"
 					},
+					"info_sql_unibenpocdb_git_connectionString": {
+						"value": "[parameters('info_sql_unibenpocdb_git_connectionString')]"
+					},
+					"info_unibenpocdb_sql_git_connectionString": {
+						"value": "[parameters('info_unibenpocdb_sql_git_connectionString')]"
+					},
 					"infosqldbgit_connectionString": {
 						"value": "[parameters('infosqldbgit_connectionString')]"
+					},
+					"infosqlunibenpocdbgit_connectionString": {
+						"value": "[parameters('infosqlunibenpocdbgit_connectionString')]"
 					}
 				}
 			},

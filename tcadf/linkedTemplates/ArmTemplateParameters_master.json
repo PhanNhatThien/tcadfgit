@@ -8,7 +8,16 @@
 		"blobinfogit_connectionString": {
 			"value": ""
 		},
+		"info_sql_unibenpocdb_git_connectionString": {
+			"value": ""
+		},
+		"info_unibenpocdb_sql_git_connectionString": {
+			"value": ""
+		},
 		"infosqldbgit_connectionString": {
+			"value": ""
+		},
+		"infosqlunibenpocdbgit_connectionString": {
 			"value": ""
 		},
 		"containerUri": {
