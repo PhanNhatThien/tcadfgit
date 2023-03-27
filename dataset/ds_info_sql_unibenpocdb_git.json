@@ -1,0 +1,16 @@
+{
+	"name": "ds_info_sql_unibenpocdb_git",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "info_sql_unibenpocdb_git",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "info"
+		}
+	}
+}
