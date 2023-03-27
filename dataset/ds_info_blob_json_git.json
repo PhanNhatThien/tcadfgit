@@ -1,0 +1,19 @@
+{
+	"name": "ds_info_blob_json_git",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "blobinfogit",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "info_json.json",
+				"container": "infosource"
+			}
+		},
+		"schema": {}
+	}
+}
