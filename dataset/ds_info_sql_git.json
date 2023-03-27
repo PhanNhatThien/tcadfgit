@@ -1,0 +1,26 @@
+{
+	"name": "ds_info_sql_git",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "infosqldbgit",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "name",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Info"
+		}
+	}
+}
