@@ -1,0 +1,21 @@
+{
+	"name": "ds_info_blob_excel_git",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "blobinfogit",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Sheet1",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "info_excel.xlsx",
+				"container": "infosource"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": []
+	}
+}

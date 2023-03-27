@@ -1,5 +1,5 @@
 {
-	"name": "pl_load_info_csv_to_db",
+	"name": "pl_load_info_excel_to_db_git",
 	"properties": {
 		"activities": [
 			{
@@ -16,14 +16,11 @@
 				"userProperties": [],
 				"typeProperties": {
 					"source": {
-						"type": "DelimitedTextSource",
+						"type": "ExcelSource",
 						"storeSettings": {
 							"type": "AzureBlobStorageReadSettings",
 							"recursive": true,
 							"enablePartitionDiscovery": false
-						},
-						"formatSettings": {
-							"type": "DelimitedTextReadSettings"
 						}
 					},
 					"sink": {
@@ -43,7 +40,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "ds_info_blob_csv_git",
+						"referenceName": "ds_info_blob_excel_git",
 						"type": "DatasetReference"
 					}
 				],
