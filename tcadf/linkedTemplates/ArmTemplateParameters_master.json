@@ -5,6 +5,12 @@
 		"factoryName": {
 			"value": "tcadf"
 		},
+		"blobinfogit_connectionString": {
+			"value": ""
+		},
+		"infosqldbgit_connectionString": {
+			"value": ""
+		},
 		"containerUri": {
 			"value": ""
 		},

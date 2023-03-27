@@ -7,6 +7,14 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "tcadf"
 		},
+		"blobinfogit_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'blobinfogit'"
+		},
+		"infosqldbgit_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'infosqldbgit'"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -33,6 +41,12 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"blobinfogit_connectionString": {
+						"value": "[parameters('blobinfogit_connectionString')]"
+					},
+					"infosqldbgit_connectionString": {
+						"value": "[parameters('infosqldbgit_connectionString')]"
 					}
 				}
 			},
