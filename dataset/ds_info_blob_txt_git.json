@@ -1,0 +1,23 @@
+{
+	"name": "ds_info_blob_txt_git",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "blobinfogit",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Info.txt",
+				"container": "infosource"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
